@@ -77,7 +77,7 @@ int main() {
     int startPort, endPort;
     printw("\n[+] Enter Start Port(0) : ");
     scanw("%d", &startPort);
-    printw("\n[+] Enter End Port(56000) : ");
+    printw("\n[+] Enter End Port(65535) : ");
     scanw("%d", &endPort);
 
     // Fill port queue
