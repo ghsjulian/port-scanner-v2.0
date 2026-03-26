@@ -141,6 +141,50 @@ port-scanner-v2.0/
 ---
 ---
 
+### 🌐 Common Networking Ports
+
+
+```bash
++----------------------------------------------------------------------+
+|  Port  | Service / Protocol |     Description                        |
+| -----  | ------------------ | -------------------------------------- |
+|  20/21 |  FTP               | File Transfer Protocol (Data/Control)  |
+|  22    |  SSH               | Secure Shell (Remote Login)            |
+|  25    |  SMTP              | Simple Mail Transfer Protocol          |
+|  53    |  DNS               | Domain Name System                     |
+|  80    |  HTTP              | Hypertext Transfer Protocol (Web)      |
+|  110   |  POP3              | Post Office Protocol (Email Receiving) |
+|  143   |  IMAP              | Message Access Protocol (Email Sync)   |
+|  443   |  HTTPS             | HTTP Secure (Encrypted Web)            |
+|  587   |  SMTP (TLS)        | Secure Email Submission                |
+|  993   |  IMAP (SSL)        | Secure Email Sync                      |
++----------------------------------------------------------------------+
+```
+
+---
+---
+
+
+### 🚀 Development & Database Ports
+
+```bash
++--------------------------------------------------------------+
+|   Port   |  Service / Tech  |     Typical Usage              |
+| -------- | ---------------- | ------------------------------ |
+|   3000   |  React / Node.js | Default Web Dev Port           |
+|   3306   |  MySQL  | MySQL/ | MariaDB Database               |
+|   5000   |  Flask / Express | Backend API Development        |
+|   5432   |  PostgreSQL      | PostgreSQL Database            |
+|   6379   |  Redis           | In-memory Data Store           |
+|   8080   |  HTTP-Alt        | Common Web Proxy/Dev Port      |
+|   27017  |  MongoDB         | NoSQL Database Port            |
++--------------------------------------------------------------+
+```
+
+---
+---
+
+
 ### 📄 Output
 
 **Open ports are saved in:**
